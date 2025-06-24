@@ -5,7 +5,6 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Service;
 
 @Service
-@RefreshScope
 public class FirstService {
 
     @Value("${app.word:none}")
@@ -14,6 +13,4 @@ public class FirstService {
     public String getWord() {
         return word;
     }
-
-
 }

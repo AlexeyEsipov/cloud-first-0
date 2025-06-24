@@ -11,8 +11,6 @@ import ru.job4j.first.service.FirstService;
 
 @RestController
 @RequestMapping("/one")
-//@RequiredArgsConstructor
-//@Slf4j
 public class FirstController {
     private static final Logger log = LoggerFactory.getLogger(FirstController.class);
 
